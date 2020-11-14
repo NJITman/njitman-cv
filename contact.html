@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Patrick's Personal Site" />
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript" />
+    <meta name="author" content="Patrick Loftus" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <img
+      src="images/PGL-CIRCLE.png"
+      alt="Patrick Loftus"
+      height="200px"
+      width="auto"
+    />
+    <h1>Patrick Loftus</h1>
+    <p>Cell: 908-228-98392</p>
+    <p>
+      Email:
+      <a href="mailto:njitman@gmail.com">njitman@gmail.com</a>
+    </p>
+    <hr />
+    <form
+      action="mailto:njitman@gmail.com?subject=Contact%20Me"
+      method="post"
+      enctype="text/plain"
+    >
+      <label for="name">Your Name:</label>
+      <input type="text" name="name" value="" />
+      <br />
+      <label for="name">Your Email:</label>
+      <input type="email" name="email" />
+      <br />
+      <label for="message">Your Message:</label>
+      <textarea rows="10" cols="30" name="message"></textarea>
+      <br />
+      <input type="checkbox" name="checkbox" />
+      Do you want to signup to the email list?
+      <br />
+      <input type="submit" name="submit" />
+    </form>
+  </body>
+</html>
